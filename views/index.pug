@@ -1,0 +1,21 @@
+extends partials/layout
+
+block vars
+  - const title = 'Amazon Crawl';
+  - const pageID = 'index';
+
+block eod
+  script
+    +loadModule('pages/index.js')
+
+block content
+  main
+    div Write your content here
+    form(method="POST" action="/product")
+      div
+        span ProxyCrawl Token
+        input(name="token")
+      div
+        span ProxyCrawl url (Example url: https://www.amazon.com/Philips-Norelco-AT830-46-Frustration/dp/B00JITDVD2 )
+        input(name="url")
+      input(type="submit")

@@ -1,0 +1,18 @@
+include mixins/index
+doctype html
+html(lang="en")
+  block vars
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible" content="ie=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title= title
+    link(rel="stylesheet" charset="utf-8" media="screen" type="text/css" href=assetURL("css/styles.css"))
+
+  body(class=pageID)
+    block header
+    block content
+    block footer
+
+    script(src=assetURL("js/main-bundle.js") async)
+    block eod

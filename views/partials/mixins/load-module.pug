@@ -1,0 +1,2 @@
+mixin loadModule(moduleName)
+  !="var loadInterval=setInterval(function(){if(window.loadModule){clearInterval(loadInterval);loadModule('" +  moduleName + "');}},50);"

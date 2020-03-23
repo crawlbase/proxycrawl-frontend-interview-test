@@ -1,0 +1,22 @@
+extends partials/layout
+
+block vars
+  - const title = 'Amazon Crawl';
+  - const pageID = 'product';
+
+block eod
+  script
+    +loadModule('pages/product.js')
+
+block content
+  main
+    div Write your content here
+    if error
+      p Ups there is an error, try again
+      p= error
+    else
+      ul
+        li Check console output to see all available properties.
+        li= product.name
+        li= product.price
+        li= product.description
