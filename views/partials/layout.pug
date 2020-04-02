@@ -11,7 +11,16 @@ html(lang="en")
 
   body(class=pageID)
     block header
-    block content
+      .container
+        #navigation-bar
+          nav
+            ul
+              li
+                a(href='/')
+                  img#pc_logo(src=assetURL("static/logo-header.png"))
+              li
+                a(href='/') Home
+        block content
     block footer
 
     script(src=assetURL("js/main-bundle.js") async)
