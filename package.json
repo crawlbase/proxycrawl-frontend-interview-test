@@ -27,7 +27,7 @@
     "gulp-fn": "0.0.3",
     "gulp-once": "^2.0.3",
     "gulp-sass": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-cache-control": "^2.0.0",
