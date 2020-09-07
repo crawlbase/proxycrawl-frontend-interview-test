@@ -14,7 +14,7 @@ function serveStaticFile(ctx, folder, file) {
   return send(ctx, file, { root: path.resolve(global.rootPath + folder) });
 }
 
-router.get('/assets/*', (ctx) => {
+router.get('/assets/(.*)', (ctx) => {
   const path = require('path');
   const requested = path.normalize(ctx.params[0]);
 
