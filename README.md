@@ -7,7 +7,7 @@ Welcome to ProxyCrawl Frontend test, if you haven't applied for a job offer yet,
 ## Instructions
 
 1. Clone/fork this repository.
-1. The project requires Node and gulp. Once Node and gulp is installed, install gulp `npm install --global gulp-cli` and then install the dependencies with `npm i` and run the project with `npm run dev` (**note:** the script is made for Linux/Mac computers, Windows users might need to tweak the start script).
+1. The project requires Node and gulp. Once Node and gulp are installed, install gulp `npm install --global gulp-cli` and then install the dependencies with `npm i` and run the project with `npm run dev` (**note:** the script is made for Linux/Mac computers, Windows users might need to tweak the start script).
 1. You can access the app in http://localhost:3000
 1. Read [Project to Build](#project-to-build) section to see what you have to build in the test.
 1. Make frequent commits to the repository like you would normally do on your daily job.
