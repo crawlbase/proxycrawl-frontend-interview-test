@@ -15,7 +15,7 @@ Welcome to ProxyCrawl Frontend test, if you haven't applied for a job offer yet,
 
 ## Project to build
 
-The application is built using Node, [Koa](https://koajs.com) and the [ProxyCrawl Crawling API](https://proxycrawl.com/dashboard/api/docs) for the backend and [Pug](https://pugjs.org) and [SCSS](https://sass-lang.com) for the frontend.
+The application is built using Node, [Koa](https://koajs.com) and the [ProxyCrawl Crawling API](https://proxycrawl.com/docs/crawling-api) for the backend and [Pug](https://pugjs.org) and [SCSS](https://sass-lang.com) for the frontend.
 
 Edit the views, styles and javascript files to build an application that accepts a ProxyCrawl token and an amazon.com product url and then displays the Amazon product information.
 
