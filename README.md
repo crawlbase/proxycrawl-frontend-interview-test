@@ -19,7 +19,7 @@ The application is built using Node, [Koa](https://koajs.com) and the [ProxyCraw
 
 Edit the views, styles and javascript files to build an application that accepts a ProxyCrawl token and an amazon.com product url and then displays the Amazon product information.
 
-You are free to showcase your skills. There are no limitations on how the exercise should be done. It can be done like a regular form, or can be done via ajax. Make sure the app is as beautiful as possible and handles any possible errors properly. Think of it like if this app has to be deployed in production for being used by several thousand users. Remember that this is your chance to showcase what you are capable of.
+You are free to showcase your skills. There are no limitations on how the exercise should be done. It can be done like a regular form, or can be done via ajax. Make sure the app is as beautiful as possible and handles any possible errors properly. Think of it like if this app has to be deployed in production for being used by several thousand users. Remember that this is your chance to showcase what you are capable of, so try to avoid using frameworks and build something with javascript as well to showcase your skills.
 
 *Please create a free ProxyCrawl account if you haven't done so yet to get your token for testing, the first 1000 requests are free of charge, if you need more free requests please ask the person in charge of your role application.*
 
