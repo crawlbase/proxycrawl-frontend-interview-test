@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const minifyCSS = require('gulp-csso');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('node-sass'));
 const del = require('del');
 const once = require('gulp-once');
 const gulpFn = require('gulp-fn');
@@ -9,7 +9,6 @@ const path = require('path');
 const fs = require('fs');
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
-sass.compiler = require('node-sass');
 
 const assetsFolder = './public/assets';
 
