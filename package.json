@@ -19,7 +19,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/runtime": "^7.17.2",
     "@koa/router": "^10.1.1",
-    "babel-loader": "^8.2.3",
+    "babel-loader": "^8.3.0",
     "del": "^6.0.0",
     "glob": "^7.2.0",
     "gulp": "^4.0.2",
