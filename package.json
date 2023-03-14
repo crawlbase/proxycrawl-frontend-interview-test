@@ -40,7 +40,7 @@
     "play-sound": "^1.1.5",
     "proxycrawl": "^2.4.0",
     "pug": "^3.0.2",
-    "webpack": "^5.69.1",
+    "webpack": "^5.76.0",
     "webpack-stream": "^7.0.0"
   },
   "devDependencies": {
